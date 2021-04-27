@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Helvetica Neue", Arial, sans-serif;
+  background: #191a21;
+  color: #2c44af;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #02b2c8;
+  transition: 100ms;
+  &:hover {
+    color: #43adf0;
+  }
+}
